@@ -1,24 +1,47 @@
 # Trainee Frontend
 
-This is the frontend of the **Trainee Project**. It contains a simple HTML page with basic styling to display a "Welcome" message.
+This is the **Frontend** of the **Trainee Project**. It contains a simple HTML page with basic CSS styling to display a "Welcome" message.
 
-## Project Information
+---
 
-The frontend consists of:
-- `index.html` file: Displays the welcome message.
-- `style.css` file: Provides styling for the page, including background, text alignment, and font styling.
+## Steps to Set Up the Frontend
 
-## How to Run
+### 1. Create the Project Folder
 
-1. Navigate to the `trainee_frontend` directory.
-2. Open the `index.html` file in your preferred web browser.
+1. Create a new folder for your frontend project. Name it `trainee_frontend`.
 
-    ```bash
-    cd trainee_frontend
-    # Open index.html file in the browser (depends on OS)
-    ```
+    - On **Windows**, right-click and select **New Folder**.
+    - On **macOS/Linux**, open a terminal and run:
+      ```bash
+      mkdir trainee_frontend
+      cd trainee_frontend
+      ```
 
-    This will display the **"Welcome to Trainee Frontend!"** page in the browser.
+### 2. Create the `index.html` File
+
+1. Inside the `trainee_frontend` folder, create a new file named **`index.html`**.
+2. Add the basic HTML structure that will display the "Welcome" message.
+3. The `index.html` file should link to the **`style.css`** file for styling, which will be created in the next step.
+
+### 3. Create the `css` Folder
+
+1. Inside the `trainee_frontend` folder, create a folder named **`css`**. This folder will store your styling files separately from the HTML file.
+   
+    - Run the following command:
+      ```bash
+      mkdir css
+      ```
+
+### 4. Create the `style.css` File
+
+1. Inside the newly created **`css`** folder, create a new file named **`style.css`**.
+2. This **`style.css`** file will contain the styling for the page, such as background color, text alignment, and font styling.
+
+### 5. Folder Structure
+
+After completing the steps above, your project folder structure should look like this:
+
+
 
 ## How to Test
 
