@@ -21,9 +21,10 @@ The project includes a shell script (`get_vm_details.sh`) that collects comprehe
 
 ### Usage
 
-To run the VM details script:
+To run the VM details script, first make it executable (if not already) and then execute it:
 
 ```bash
+chmod +x get_vm_details.sh
 ./get_vm_details.sh
 ```
 

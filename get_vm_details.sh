@@ -117,7 +117,7 @@ echo "========================================"
 echo "9. LOAD AVERAGE"
 echo "========================================"
 if [ -f /proc/loadavg ]; then
-    echo "Load Average: $(cat /proc/loadavg | awk '{print $1, $2, $3}')"
+    echo "Load Average: $(awk '{print $1, $2, $3}' /proc/loadavg)"
 else
     echo "Load average information not available"
 fi
