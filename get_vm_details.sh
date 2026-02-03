@@ -89,7 +89,7 @@ if command -v df &> /dev/null; then
     echo ""
     TOTAL_DISK=$(df -h --total | grep total | awk '{print $2}')
     USED_DISK=$(df -h --total | grep total | awk '{print $3}')
-    FREE_DISK=$(df -h --total | grep total | grep total | awk '{print $4}')
+    FREE_DISK=$(df -h --total | grep total | awk '{print $4}')
     print_info "Total Disk Space" "$TOTAL_DISK"
     print_info "Used Disk Space" "$USED_DISK"
     print_info "Free Disk Space" "$FREE_DISK"
