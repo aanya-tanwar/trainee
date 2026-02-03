@@ -129,7 +129,7 @@ fi
 # 7. SYSTEM UPTIME
 print_header "SYSTEM UPTIME"
 if command -v uptime &> /dev/null; then
-    UPTIME_INFO=$(uptime -p 2>/dev/null || uptime | awk -F'( |,|:)+' '{print $6,$7",",$8,"hours,",$9,"minutes."}')
+    UPTIME_INFO=$(uptime -p 2>/dev/null || uptime)
     print_info "Uptime" "$UPTIME_INFO"
     LOAD_AVG=$(uptime | awk -F'load average:' '{print $2}')
     print_info "Load Average" "$LOAD_AVG"
